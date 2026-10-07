@@ -1,0 +1,33 @@
+# Local Python environment and caches
+.venv/
+.browsers/
+results_*/
+probe*
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated crawl data
+baomoi_24h.json
+vnexpress_24h.json
+
+# Local tool and cloud configuration
+.agents/
+.aws/
+.codex/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Separate local Git repository used while the root .git is read-only
+.publish-repo/
